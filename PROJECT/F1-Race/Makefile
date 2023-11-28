@@ -6,7 +6,7 @@ build:
 	as -o main.o main.s
 	gcc -o game main.o F1_Race.c -lSDL2 -lSDL2_mixer
 
-run: build
+run:
 	./game
 
 clean:
